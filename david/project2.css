@@ -1,0 +1,70 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+header h2{
+    font-weight: bolder;
+    font-size: 2.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 70px;
+}
+header button{
+    margin-right: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 27px 35px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+background-color: white;
+font-weight: bolder;
+border: 3px solid black;
+margin-top: 45px;
+}
+.container{
+
+}
+.card{
+    margin-left: 50px;
+}
+.card img{
+border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.card h3{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.card p{
+    font-size: 1.2rem;
+    color: rgb(106, 104, 104);
+}
+.card progress{
+    width: 400px;
+  height: 13px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+ progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  }
+  progress::-webkit-progress-value {
+  background-color: #f18518;
+  border-radius: 5px;
+}
+.card #one{
+    display: flex;
+    gap: 17rem;
+    font-size: 1.2rem;
+}
+.card #two{
+    display: flex;
+    gap: 13rem;
+    font-size: 0.8rem;
+    margin-top: -2%;
+}
+.card button{
+    
+}
