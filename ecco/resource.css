@@ -12,7 +12,7 @@ body {
                 align-items: center;
                 padding: 15px 40px;
                }
-                .donate {
+                .button {
                 background-color: orange;
                 color: white;
                 box-shadow: none;
@@ -33,5 +33,5 @@ body {
     align-items: center;
  }
  form {
-    
+
  }
