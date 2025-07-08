@@ -12,7 +12,7 @@ body {
                 align-items: center;
                 padding: 15px 40px;
                }
-                .donate {
+                .donnate{
                 background-color: orange;
                 color: white;
                 box-shadow: none;
@@ -24,14 +24,38 @@ body {
                 font-size: 16px;
                 cursor: pointer;
                }
+
+            .login {
+                background-color: orange;
+                 color: white;
+                box-shadow: none;
+                border: none;
+                outline: none;
+                padding: 10px 20px;
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 16px;
+                cursor: pointer;
+            } 
+            
+            .signin {
+                background-color: gray;
+                 color: white;
+                box-shadow: none;
+                border: none;
+                outline: none;
+                padding: 10px 20px;
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 16px;
+                cursor: pointer;
+            }
  
  .container {
     margin: 50px 100px;
     border: 1px solid black;
     display: block
-    justify-content: center;
-    align-items: center;
- }
- form {
+    
     
  }
+ 
