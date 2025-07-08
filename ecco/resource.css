@@ -12,11 +12,7 @@ body {
                 align-items: center;
                 padding: 15px 40px;
                }
-<<<<<<< HEAD
                 .button {
-=======
-                .donnate{
->>>>>>> 2ce216daa8733442c3146f3bb5849dcfe6d8bc80
                 background-color: orange;
                 color: white;
                 box-shadow: none;
@@ -58,17 +54,8 @@ body {
  .container {
     margin: 50px 100px;
     border: 1px solid black;
-    display: block
-<<<<<<< HEAD
+    display: block;
     justify-content: center;
     align-items: center;
  }
- form {
-
- }
-=======
-    
-    
- }
  
->>>>>>> 2ce216daa8733442c3146f3bb5849dcfe6d8bc80
