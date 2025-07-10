@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second bluehouse projet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate - EmpowerNext</title>
+  <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <img src="/Images/Home/Logo (1).png" alt="">
-    
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">🚀 EMPOWERNEXT</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Programs</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <a href="#" class="btn btn-orange">DONATE</a>
+      </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h4>Donate</h4>
+        <h1>Making a donation for our mission.</h1>
+        <p>When you donate, you’re supporting effective care to students and women — an investment in the leaders of tomorrow.</p>
+      </div>
+      <div class="hero-img">
+        <img src="/Images/About/Image.png" alt="Donation box">
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation Form -->
+  <section class="donation-section">
+    <div class="container">
+      <form class="donation-form">
+        <h3>Donate to Our Mission or a program of choice</h3>
+        <select>
+          <option>Select a Program to Donate to</option>
+        </select>
+
+        <h3>Donation Amount</h3>
+        <div class="amount-buttons">
+          <button type="button">$10</button>
+          <button type="button">$25</button>
+          <button type="button">$50</button>
+          <button type="button">$100</button>
+          <button type="button">$500</button>
+          <button type="button" class="custom-btn">CUSTOM AMOUNT</button>
+        </div>
+
+        <div class="custom-amount">
+          <label>$</label>
+          <input type="number" value="600">
+        </div>
+
+        <h3>Select Payment Method</h3>
+        <label><input type="radio" name="payment" checked> Credit Card</label>
+        <label><input type="radio" name="payment"> Pay Pal</label>
+
+        <input type="text" placeholder="Credit Card Number">
+
+        <h3>Personal Information</h3>
+        <div class="personal-info">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+        </div>
+        <input type="email" placeholder="Email Address">
+
+        <div class="donation-total">
+          <p>Donation Total: <span>$600</span></p>
+        </div>
+
+        <button type="submit" class="btn btn-orange full-width">DONATE NOW</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h4>🚀 EMPOWERNEXT</h4>
+        <p>Tincidunt luctus port amet lectus at ultricies nec sed non. Sed sit egestas enim consectetur donec faucibus...</p>
+        <p><strong>Phone:</strong> 9999999999</p>
+        <p><strong>Address:</strong> 123 Address st, Address city, India</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>LANGUAGE</h4>
+        <p>English<br>Hindi<br>Urdu<br>Tamil<br>Telugu<br>Kannada<br>Malayalam<br>Spanish<br>Swahili<br>Arabic</p>
+      </div>
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <p>About Us<br>Programs<br>Volunteers<br>Partners<br>Contact Us</p>
+      </div>
+      <div class="footer-col">
+        <h4>Useful Links</h4>
+        <p>F.A.Q<br>News<br>Reports<br>Terms of Use<br>Privacy Policy</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 EmpowerNext. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
