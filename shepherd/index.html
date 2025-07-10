@@ -16,6 +16,75 @@
     .nav-item a{
       color: white;
     }
+    .custom-hr {
+      width: 30px;
+      height: 3px;
+      border: none;
+      margin: 40px auto;
+    }
+    .icons{
+      cursor: pointer;
+    }
+    .nav-pills .nav-link.active {
+      background-color: #FD7E14 !important;
+      color: white !important;
+    }
+    .accordion-button {
+      font-weight: bold;
+    }
+
+    .accordion-item {
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #FD7E14;
+      color: white;
+    }
+
+    .accordion-button:focus {
+      box-shadow: none;
+    }
+
+    .accordion-body {
+      background-color: #f8f9fa;
+    }
+    .btn-orange {
+      background-color: #FD7E14;
+      color: white;
+      border: none;
+      transition: 0.3s ease;
+    }
+
+    .btn-orange:hover {
+      background-color: #e96d0b;
+      color: white;
+    }
+
+    .btn-gray {
+      background-color: #6c757d;
+      color: white;
+      border: none;
+      transition: 0.3s ease;
+    }
+
+    .btn-gray:hover {
+      background-color: #5a6268;
+      color: white;
+    }
+    .text-orange {
+  color: #FD7E14;
+}
+
+.card img {
+  object-fit: cover;
+  height: 300px;
+}
+
+
+
   </style>
   <nav class="navbar navbar-expand-lg bg-dark py-3">
     <div class="container-fluid">
@@ -200,6 +269,293 @@
       </div>
     </div>
   </section>
+
+  <!-- section five -->
+  <section class="sectionFive p-5 my-5" style="background: #FCEDC6;">
+    <div class="container text-center">
+      <hr style="background-color: blue;" class="mx-auto custom-hr">
+      <h3 class="fw-bold mb-4">Our Volunteers</h3>
+      <hr style="background-color: blueviolet;" class="mx-auto custom-hr">
+    </div>
+
+
+    <div class="container py-5">
+      <div class="row justify-content-center gy-4">
+        
+        <!-- Volunteer 1 -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="Images/About/person-1.jpg" class="card-img-top" alt="Volunteer One">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Volunteer One</h5>
+              <p class="text-orange">Volunteer Position</p>
+              <div class="d-flex justify-content-center gap-3">
+                <a href="#"><i class="bi bi-facebook fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram fs-5 text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Volunteer 2 -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="Images/About/person-2.jpg" class="card-img-top" alt="Volunteer Two">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Volunteer Two</h5>
+              <p class="text-orange">Volunteer Position</p>
+              <div class="d-flex justify-content-center gap-3">
+                <a href="#"><i class="bi bi-facebook fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram fs-5 text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Volunteer 3 -->
+        <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="Images/About/person-3.jpg" class="card-img-top" alt="Volunteer Three">
+            <div class="card-body text-center">
+              <h5 class="fw-bold">Volunteer Three</h5>
+              <p class="text-orange">Volunteer Position</p>
+              <div class="d-flex justify-content-center gap-3">
+                <a href="#"><i class="bi bi-facebook fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-twitter fs-5 text-dark"></i></a>
+                <a href="#"><i class="bi bi-instagram fs-5 text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- section six -->
+  <section class="sectionSix">
+    <div class="container text text-center p-5">
+      <h3 class="fw-bold mb-3">Projects by Region</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut labore corrupti dolore esse. Repellendus, possimus dolorem quod perspiciatis, maxime id ratione architecto sint, optio accusamus est vero amet sit. Illo!</p>
+    </div>
+
+    <div class="mini-sec container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-10">
+          <!-- Navigation Pills -->
+          <ul class="nav nav-pills p-3 mb-4 d-flex flex-wrap justify-content-center gap-2" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-dark fw-bold active" id="pills-North-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-North" type="button" role="tab" aria-controls="pills-North"
+                aria-selected="true">North India</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-dark fw-bold" id="pills-South-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-South" type="button" role="tab" aria-controls="pills-South"
+                aria-selected="false">South India</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-dark fw-bold" id="pills-East-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-East" type="button" role="tab" aria-controls="pills-East"
+                aria-selected="false">East India</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-dark fw-bold" id="pills-world-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-world" type="button" role="tab" aria-controls="pills-world"
+                aria-selected="false">World Wide</button>
+            </li>
+          </ul>
+
+          <!-- Tab Content -->
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-North" role="tabpanel">
+              <img src="Images/About/Map.png" alt="North Map" class="img-fluid mx-auto d-block">
+            </div>
+            <div class="tab-pane fade" id="pills-South" role="tabpanel">
+              <img src="Images/About/Map3.png" alt="South Map" class="img-fluid mx-auto d-block">
+            </div>
+            <div class="tab-pane fade" id="pills-East" role="tabpanel">
+              <img src="Images/About/Map2.png" alt="East Map" class="img-fluid mx-auto d-block">
+            </div>
+            <div class="tab-pane fade" id="pills-world" role="tabpanel">
+              <img src="Images/About/Map4.png" alt="world Map" class="img-fluid mx-auto d-block">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq d-flex flex-column flex-lg-row p-5 my-5 gap-5">
+      <!-- Left Text Column -->
+      <div class="text col-lg-5">
+        <h3>Frequently Asked Questions</h3>
+        <p>
+          Tempora et labore accusamus quam dolores natus veritatis placeat praesentium, non suscipit, modi rem impedit voluptatem ea fugiat ipsum sit. Quae, beatae!
+        </p>
+      </div>
+
+      <!-- Right Accordion Column -->
+      <div class="accordion col-lg-7" id="accordionFAQ">
+        <!-- Accordion Item 1 -->
+        <div class="accordion-item bg-light">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What programs can I give to?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti rerum rem ipsam. Reprehenderit ad unde, a saepe dolorem quasi aliquam recusandae perspiciatis perferendis quod eius. Inventore deserunt enim reprehenderit!
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="accordion-item bg-light">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Is there a minimum/maximum amount I can donate?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti rerum rem ipsam. Reprehenderit ad unde, a saepe dolorem quasi aliquam recusandae perspiciatis perferendis quod eius. Inventore deserunt enim reprehenderit!
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 3 -->
+        <div class="accordion-item bg-light">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Can I give to more than one program?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti rerum rem ipsam. Reprehenderit ad unde, a saepe dolorem quasi aliquam recusandae perspiciatis perferendis quod eius. Inventore deserunt enim reprehenderit!
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 4 -->
+        <div class="accordion-item bg-light">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              When will my program receive my donation?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti rerum rem ipsam. Reprehenderit ad unde, a saepe dolorem quasi aliquam recusandae perspiciatis perferendis quod eius. Inventore deserunt enim reprehenderit!
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 5 -->
+        <div class="accordion-item bg-light">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Will my chosen program receive all my donations?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionFAQ">
+            <div class="accordion-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deleniti rerum rem ipsam. Reprehenderit ad unde, a saepe dolorem quasi aliquam recusandae perspiciatis perferendis quod eius. Inventore deserunt enim reprehenderit!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section seven -->
+  <section
+    style="background: url('Images/About/img3.png') center center/cover no-repeat;"
+    class="sectionSeven text-white text-center d-flex justify-content-center align-items-center p-5 mx-lg-4 mx-0 rounded-3"
+  >
+    <div>
+      <h1 class="mb-4 fw-bolder">You can contribute to creating opportunities for <br> future leaders and innovators</h1>
+
+      <div>
+        <a href="#" class="btn btn-orange m-2 px-4 py-2">Join as a volunteer</a>
+        <a href="#" class="btn btn-gray m-2 px-4 py-2">Donate</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-black text-white py-5">
+    <div class="container">
+      <div class="row gy-4">
+        
+        <div class="col-lg-5">
+          <img src="Images/Home/Logo.png" alt="Logo" class="mb-3" style="max-width: 150px;">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur beatae minima debitis cum et cumque provident qui veritatis dolore, amet, quae quia quam fugit recusandae dignissimos praesentium repudiandae architecto esse.
+          </p>
+          <p><strong>Phone:</strong> +123 456 7890</p>
+          <p>
+            <strong>Address:</strong> <br>
+            123 Address St,<br>
+            Address City, India
+          </p>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5 class="fw-bold">Language</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">English</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Hindi</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Urdu</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Tamil</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Kannada</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Malayalam</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Spanish</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Swahili</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Arabic</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5 class="fw-bold">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Programs</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Volunteers</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Partners</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-lg-2">
+          <h5 class="fw-bold">Support</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">F.A.Q</a></li>
+            <li><a href="#" class="text-white text-decoration-none">News</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Reports</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Terms of Use</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
 
 
 
