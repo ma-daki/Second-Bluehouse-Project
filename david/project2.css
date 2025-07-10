@@ -23,14 +23,18 @@ border: 3px solid black;
 margin-top: 45px;
 }
 .container{
-
+display: flex;
 }
+
 .card{
-    margin-left: 50px;
+    margin-left: 70px;
 }
 .card img{
 border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  height: 45%;
+  width: fit-content;
+
 }
 .card h3{
     font-weight: bolder;
@@ -62,9 +66,410 @@ border-top-left-radius: 25px;
 .card #two{
     display: flex;
     gap: 13rem;
-    font-size: 0.8rem;
-    margin-top: -2%;
+    font-size: 0.7rem;
+    margin-top: -8%;
 }
 .card button{
-    
+color: white;
+background-color: black;
+padding: 17px 140px;
+border-radius: 15px;
+font-size: 1.1rem;
+}
+.card2{
+    margin-left: 50px;
+}
+.card2 img{
+border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+   height: 45%;
+  width: fit-content;
+}
+.card2 h3{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.card2 p{
+    font-size: 1.2rem;
+    color: rgb(106, 104, 104);
+}
+.card2 progress{
+    width: 400px;
+  height: 13px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+ .card2 progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  }
+ .card2 progress::-webkit-progress-value {
+  background-color: #f18518;
+  border-radius: 5px;
+}
+.card2 #three{
+    display: flex;
+    gap: 17rem;
+    font-size: 1.2rem;
+}
+.card2 #four{
+    display: flex;
+    gap: 13rem;
+    font-size: 0.7rem;
+    margin-top: -8%;
+}
+.card2 button{
+color: white;
+background-color: black;
+padding: 17px 140px;
+border-radius: 15px;
+font-size: 1.1rem;
+}
+.card3{
+    margin-left: 50px;
+}
+.card3 img{
+border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+   height: 45%;
+  width: fit-content;
+}
+.card3 h3{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.card3 p{
+    font-size: 1.2rem;
+    color: rgb(106, 104, 104);
+    margin-top: -2%;
+}
+.card3 progress{
+    width: 400px;
+  height: 13px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+ .card3 progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  }
+ .card3 progress::-webkit-progress-value {
+  background-color: #f18518;
+  border-radius: 5px;
+}
+.card3 #five{
+    display: flex;
+    gap: 17rem;
+    font-size: 1.2rem;
+}
+.card3 #six{
+    display: flex;
+    gap: 13rem;
+    font-size: 0.7rem;
+    margin-top: -2%;
+}
+.card3 button{
+color: white;
+background-color: black;
+padding: 17px 140px;
+border-radius: 15px;
+font-size: 1.1rem;
+}
+.container2{
+display: flex;
+margin-top: 30px;
+}
+.card4{
+    margin-left: 50px;
+}
+.card4 img{
+border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+   height: 45%;
+  width: fit-content;
+}
+.card4 h3{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.card4 p{
+    font-size: 1.2rem;
+    color: rgb(106, 104, 104);
+    margin-top: -2%;
+}
+.card4 progress{
+    width: 400px;
+  height: 13px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+ .card4 progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  }
+ .card4 progress::-webkit-progress-value {
+  background-color: #f18518;
+  border-radius: 5px;
+}
+.card4 #seven{
+    display: flex;
+    gap: 17rem;
+    font-size: 1.2rem;
+}
+.card4 #eight{
+    display: flex;
+    gap: 13rem;
+    font-size: 0.7rem;
+    margin-top: -2%;
+}
+.card4 button{
+color: white;
+background-color: black;
+padding: 17px 140px;
+border-radius: 15px;
+font-size: 1.1rem;
+}
+
+.card5{
+    margin-left: 50px;
+}
+.card5 img{
+border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+   height: 45%;
+  width: fit-content;
+}
+.card5 h3{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.card5 p{
+    font-size: 1.2rem;
+    color: rgb(106, 104, 104);
+    margin-top: -2%;
+}
+.card5 progress{
+    width: 400px;
+  height: 13px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+ .card5 progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  }
+ .card5 progress::-webkit-progress-value {
+  background-color: #f18518;
+  border-radius: 5px;
+}
+.card5 #nine{
+    display: flex;
+    gap: 17rem;
+    font-size: 1.2rem;
+}
+.card5 #ten{
+    display: flex;
+    gap: 13rem;
+    font-size: 0.7rem;
+    margin-top: -2%;
+}
+.card5 button{
+color: white;
+background-color: black;
+padding: 17px 140px;
+border-radius: 15px;
+font-size: 1.1rem;
+}
+.card6{
+    margin-left: 50px;
+}
+.card6 img{
+border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+   height: 45%;
+  width: fit-content;
+}
+.card6 h3{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.card6 p{
+    font-size: 1.2rem;
+    color: rgb(106, 104, 104);
+    margin-top: -2%;
+}
+.card6 progress{
+    width: 400px;
+  height: 13px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+ .card6 progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  }
+ .card6 progress::-webkit-progress-value {
+  background-color: #f18518;
+  border-radius: 5px;
+}
+.card6 #eleven{
+    display: flex;
+    gap: 17rem;
+    font-size: 1.2rem;
+}
+.card6 #twelve{
+    display: flex;
+    gap: 13rem;
+    font-size: 0.7rem;
+    margin-top: -2%;
+}
+.card6 button{
+color: white;
+background-color: black;
+padding: 17px 140px;
+border-radius: 15px;
+font-size: 1.1rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    background-color: black;
+    padding: 17px;
+}
+.navbar h3{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: white;
+}
+.lists{
+    display: flex;
+    gap: 2.5rem;
+    font-size: 1.3rem;
+ list-style: none;
+}
+.navbar .lists li a{
+    color:  rgb(144, 142, 142);
+    text-decoration: none;
+}
+ #prog{
+    color: white;
+}
+.navbar button{
+    background-color: rgba(237, 100, 9, 0.785);
+    color: white;
+    padding-right: 35px;
+    padding-left: 35px;
+    height: 45px;
+    border-radius: 17px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    border: none;
+}
+.hero-section{
+    background-color: beige;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    justify-content: space-evenly;
+}
+.hero-section hr{
+    margin-left: -17%;
+    margin-top: 7%;
+}
+.hero-section h4{
+    margin-top: -4%;
+    font-size: 1.1rem;
+}
+.hero-section h2{
+    font-size: 3rem;
+}
+.hero-section p{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -3%;
+}
+.hero-section button{
+    margin-top: 20px;
+    padding: 20px 35px;
+    font-weight: bolder;
+    border-radius: 4px;
+    background-color: rgb(233, 205, 25);
+}
+footer{
+    background-color: black;
+    color: white;
+
+}.container3{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.content3 h3{
+font-size: 1.1rem;
+margin-top: 70px;
+}
+
+
+.content3 p{
+    font-size: 1.2rem;
+    color: #dbd0d0;
+}
+
+
+.content3 h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content3 h5{
+    font-size: 1.07rem;
+
+}
+.content3 #para{
+margin-top: -18%;
+margin-left: 25%;
+font-size: 1rem;
+font-weight: bold;
+}
+.content4 h3{
+    margin-top: 70px;
+}
+.content4 ul li{
+    list-style: none;
+padding: 3px;
+font-size: 1.1rem;
+}
+.content5 ul li{
+    list-style: none;
+padding: 3px;
+font-size: 1.1rem;
+
+}
+.content5 h3{
+    margin-top: 70px;
+    margin-left: 20%;
+
+
+}
+
+.content6 ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+    font-size: 1.1rem;
+    }
+.content6 ul{
+list-style: none;
+padding: 3px;
+}
+
+.content6 h3{
+ margin-top: 70px;   
+}
+ footer .content7{
+    display: flex;
+    margin-top: 70px;
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
 }
