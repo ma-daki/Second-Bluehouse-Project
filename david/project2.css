@@ -337,10 +337,9 @@ font-size: 1.1rem;
     background-color: black;
     padding: 17px;
 }
-.navbar h3{
-    font-weight: bolder;
-    font-size: 1.2rem;
-    color: white;
+.navbar img{
+    height: 20px;
+    margin-top: 15px ;
 }
 .lists{
     display: flex;
@@ -405,8 +404,7 @@ footer{
     justify-content: space-evenly;
 
 }
-.content3 h3{
-font-size: 1.1rem;
+.content3 {
 margin-top: 70px;
 }
 
@@ -472,4 +470,123 @@ padding: 3px;
     color: white;
     font-size: 2rem;
     justify-content: center;
+}
+.container4{
+display: flex;
+justify-content: center;
+margin-top: 70px;
+background-color: #fafafa;
+padding-top: 70px;
+padding-bottom: 70px;
+gap: 1rem;
+}
+.content8{
+    border-radius: 7px;
+    background-color: white;
+    justify-items: center;
+    box-shadow: 2px 2px white;
+}
+.content8 i{
+display: flex;
+    justify-self: center;
+    margin-top: 40px;
+
+}
+.content8 h3{
+font-size: 1.3rem;
+}
+.content8 p{
+font-size: 1.4rem;
+}
+.content9{
+    border-radius: 7px;
+    background-color: white;
+    justify-items: center;
+    box-shadow: 2px 2px white;
+}
+.content9 h3{
+font-size: 1.3rem;
+}
+.content9 p{
+font-size: 1.4rem;
+}
+.content9 i{
+display: flex;
+    justify-self: center;
+    margin-top: 40px;
+}
+.content10{
+    border-radius: 7px;
+    background-color: white;
+    justify-items: center;
+    box-shadow: 2px 2px white;
+}
+.content10 h3{
+font-size: 1.3rem;
+}
+.content10 p{
+font-size: 1.4rem;
+position: relative;
+}
+.content10 i{
+display: flex;
+    justify-self: center;
+    margin-top: 40px;
+}
+.content11{
+    border-radius: 7px;
+    background-color: white;
+    justify-items: center;
+    box-shadow: 2px 2px white;
+}
+.content11 h3{
+font-size: 1.3rem;
+}
+.content11 p{
+font-size: 1.4rem;
+
+}
+.content11 i{
+display: flex;
+    justify-self: center;
+    margin-top: 40px;
+}
+.container5{
+    justify-items: center;
+    margin-top: 70px;
+}
+.container5 h1{
+    font-size: 3.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+.container5 p{
+font-size: 1.3rem;
+margin-top: 50px;
+}
+.container6 {
+    display: flex;
+    margin-top: 50px;
+    gap: 2rem;
+}
+.content12 button{
+    display: flex;
+padding: 13px 37px;
+border-radius: 5px;
+background-color: #dcc110;
+color: black;
+font-size: 1.2rem;
+font-weight: bolder;
+border: none;
+}
+.content13 button{
+    display: flex;
+padding: 13px 37px;
+border-radius: 5px;
+background-color: #646461;
+color: white;
+border: none;
+font-size: 1.2rem;
+font-weight: bolder;
 }
