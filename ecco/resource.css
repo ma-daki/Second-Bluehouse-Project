@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     background: linear-gradient(#fffaf0, #f6f6f6);
     color: #000;
 }
@@ -12,7 +12,7 @@ body {
                 align-items: center;
                 padding: 15px 40px;
                }
-                .button {
+                .donnate {
                 background-color: orange;
                 color: white;
                 box-shadow: none;
@@ -31,11 +31,12 @@ body {
                 box-shadow: none;
                 border: none;
                 outline: none;
-                padding: 10px 20px;
-                border-radius: 20px;
+                padding: 10px 70px;
+                border-radius: 12px;
                 font-weight: bold;
                 font-size: 16px;
                 cursor: pointer;
+                margin: 40px 60px 30px 20px;
             } 
             
             .signin {
@@ -44,18 +45,176 @@ body {
                 box-shadow: none;
                 border: none;
                 outline: none;
-                padding: 10px 20px;
-                border-radius: 20px;
+                padding: 10px 70px;
+                border-radius: 12px;
                 font-weight: bold;
                 font-size: 16px;
                 cursor: pointer;
-            }
- 
- .container {
-    margin: 50px 100px;
-    border: 1px solid black;
-    display: block;
-    justify-content: center;
-    align-items: center;
+                margin: 35px 5px;
  }
- 
+ form {
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin: 30px auto;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+ }
+ .empower {
+    margin: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+ }
+.form-input {
+    margin: 15px;
+    padding: 5px 10px;
+    width: 450px;
+    border-radius: 6px;
+    border: none;
+}
+.welcome {
+    text-align: center;
+    text-size-adjust: 30px;
+}
+.para {
+    display: block;
+    text-align: center;
+}
+.hero {
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.small {
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.orange {
+    background-color: #ffce00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+.grey {
+    background-color: grey;
+    padding: 10px 17px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.lefty {
+    width: 200px;
+    margin-left: 200px;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 600px;
+    margin-right: 100px;
+}
+.article {
+    border: 1px dotted black;
+    display:flex;
+    align-items: center;
+    margin-top: 70px;
+    background-color: #fae6bf
+}
+.item1, .item2, .item3 {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+.imgs {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+#sm{
+    color: #888;
+    font-size: 12px;
+}
+#pf {
+    margin: 5px 0 0;
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: lighter;
+    color: #555;
+}
+#he {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+#lt {
+    font-size: 0.9rem;
+    color: #555;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    border-top:  3px solid #000;
+    max-width: 700px;
+}
+#lh {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+    margin-left: 100px;
+    width: 400px;
+    height: 200px;
+    padding: auto;
+    line-height: 40px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#lp {
+    margin-bottom: 1.5rem;
+    font-size: 0.50rem;
+    line-height: 1.6;
+    text-align: ;
+}
+#lh, #P {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+footer {
+    display: flex;
+    justify-content:space-around;
+    background-color: black;
+    color: white;
+    font-family:serif
+}
+.ft1 {
+    font-size: 10px;
+    font-weight: smaller;
+    flex:
+}
+.ul {
+    padding: 0;
+}
+.yellow {
+    background-color: #ffce00;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+ul, #hh {
+    list-style: linear-gradient()
+}
+.line::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin-left: 10px;
+    vertical-align: middle;
+}
