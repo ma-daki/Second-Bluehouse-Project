@@ -1,0 +1,85 @@
+.nav-item a{
+      color: white;
+    }
+    .custom-hr {
+      width: 30px;
+      height: 3px;
+      border: none;
+      margin: 40px auto;
+    }
+    .icons{
+      cursor: pointer;
+    }
+    .nav-pills .nav-link.active {
+      background-color: #FD7E14 !important;
+      color: white !important;
+    }
+    .accordion-button {
+      font-weight: bold;
+    }
+
+    .accordion-item {
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: #FD7E14;
+      color: white;
+    }
+
+    .accordion-button:focus {
+      box-shadow: none;
+    }
+
+    .accordion-body {
+      background-color: #f8f9fa;
+    }
+    .btn-orange {
+      background-color: #FD7E14;
+      color: white;
+      border: none;
+      transition: 0.3s ease;
+    }
+
+    .btn-orange:hover {
+      background-color: #e96d0b;
+      color: white;
+    }
+
+    .btn-gray {
+      background-color: #6c757d;
+      color: white;
+      border: none;
+      transition: 0.3s ease;
+    }
+
+    .btn-gray:hover {
+      background-color: #5a6268;
+      color: white;
+    }
+    .text-orange {
+      color: #FD7E14;
+    }
+    .social-icons a i {
+      color: black;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover i {
+      color: #FD7E14;
+    }
+    .social-icon a i {
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    .social-icon a:hover i {
+      color: #FD7E14;
+    }
+
+    .card img {
+      object-fit: cover;
+      height: 300px;
+    }

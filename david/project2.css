@@ -362,7 +362,6 @@ font-size: 1.1rem;
     height: 45px;
     border-radius: 17px;
     font-size: 1.1rem;
-    margin-top: 10px;
     border: none;
 }
 .hero-section{
@@ -464,12 +463,17 @@ padding: 3px;
 .content6 h3{
  margin-top: 70px;   
 }
+footer{
+    margin-top: 70px;
+}
  footer .content7{
     display: flex;
     margin-top: 70px;
     color: white;
     font-size: 2rem;
     justify-content: center;
+    padding-bottom: 17px;
+    gap: 0.7rem;
 }
 .container4{
 display: flex;
@@ -478,13 +482,17 @@ margin-top: 70px;
 background-color: #fafafa;
 padding-top: 70px;
 padding-bottom: 70px;
-gap: 1rem;
+gap: 2.5rem;
 }
 .content8{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
+}
+.content8 #vitae {
+margin-top: 20px;
 }
 .content8 i{
 display: flex;
@@ -493,63 +501,89 @@ display: flex;
 
 }
 .content8 h3{
-font-size: 1.3rem;
+font-size: 1.4rem;
 }
 .content8 p{
-font-size: 1.4rem;
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .content9{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
 }
-.content9 h3{
-font-size: 1.3rem;
-}
-.content9 p{
-font-size: 1.4rem;
+.content9 #vitae {
+margin-top: 20px;
 }
 .content9 i{
 display: flex;
     justify-self: center;
     margin-top: 40px;
+
+}
+.content9 h3{
+font-size: 1.4rem;
+}
+.content9 p{
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .content10{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
+    padding-bottom: 70px;
 }
-.content10 h3{
-font-size: 1.3rem;
-}
-.content10 p{
-font-size: 1.4rem;
-position: relative;
+.content10 #vitae {
+margin-top: 25px;
 }
 .content10 i{
 display: flex;
     justify-self: center;
     margin-top: 40px;
+
+}
+.content10 h3{
+font-size: 1.4rem;
+}
+.content10 p{
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .content11{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
 }
-.content11 h3{
-font-size: 1.3rem;
-}
-.content11 p{
-font-size: 1.4rem;
-
+.content11 #vitae {
+margin-top: 20px;
 }
 .content11 i{
 display: flex;
     justify-self: center;
     margin-top: 40px;
+
+}
+.content11 h3{
+font-size: 1.4rem;
+}
+.content11 p{
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .container5{
     justify-items: center;
