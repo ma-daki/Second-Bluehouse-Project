@@ -1,3 +1,67 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 17px;
+}
+.navbar img{
+    height: 20px;
+    margin-top: 15px ;
+}
+.lists{
+    display: flex;
+    gap: 2.5rem;
+    font-size: 1.3rem;
+ list-style: none;
+}
+.navbar .lists li a{
+    color:  rgb(144, 142, 142);
+    text-decoration: none;
+}
+ #prog{
+    color: white;
+}
+.navbar button{
+    background-color: rgba(237, 100, 9, 0.785);
+    color: white;
+    padding-right: 35px;
+    padding-left: 35px;
+    height: 45px;
+    border-radius: 17px;
+    font-size: 1.1rem;
+    border: none;
+}
+.hero-section{
+    background-color: beige;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    justify-content: space-evenly;
+}
+.hero-section hr{
+    margin-left: -17%;
+    margin-top: 7%;
+}
+.hero-section h4{
+    margin-top: -4%;
+    font-size: 1.1rem;
+}
+.hero-section h2{
+    font-size: 3rem;
+}
+.hero-section p{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -3%;
+}
+.hero-section button{
+    margin-top: 20px;
+    padding: 20px 35px;
+    font-weight: bolder;
+    border-radius: 4px;
+    background-color: rgb(233, 205, 25);
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -330,76 +394,7 @@ padding: 17px 140px;
 border-radius: 15px;
 font-size: 1.1rem;
 }
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 7%;
-    background-color: black;
-    padding: 17px;
-}
-.navbar img{
-    height: 20px;
-    margin-top: 15px ;
-}
-.lists{
-    display: flex;
-    gap: 2.5rem;
-    font-size: 1.3rem;
- list-style: none;
-}
-.navbar .lists li a{
-    color:  rgb(144, 142, 142);
-    text-decoration: none;
-}
- #prog{
-    color: white;
-}
-.navbar button{
-    background-color: rgba(237, 100, 9, 0.785);
-    color: white;
-    padding-right: 35px;
-    padding-left: 35px;
-    height: 45px;
-    border-radius: 17px;
-    font-size: 1.1rem;
-    margin-top: 10px;
-    border: none;
-}
-.hero-section{
-    background-color: beige;
-    display: flex;
-    padding-top: 70px;
-    padding-bottom: 90px;
-    justify-content: space-evenly;
-}
-.hero-section hr{
-    margin-left: -17%;
-    margin-top: 7%;
-}
-.hero-section h4{
-    margin-top: -4%;
-    font-size: 1.1rem;
-}
-.hero-section h2{
-    font-size: 3rem;
-}
-.hero-section p{
-    font-size: 1.2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: -3%;
-}
-.hero-section button{
-    margin-top: 20px;
-    padding: 20px 35px;
-    font-weight: bolder;
-    border-radius: 4px;
-    background-color: rgb(233, 205, 25);
-}
-footer{
-    background-color: black;
-    color: white;
-
-}.container3{
+.container3{
     display: flex;
     justify-content: space-evenly;
 
@@ -464,12 +459,20 @@ padding: 3px;
 .content6 h3{
  margin-top: 70px;   
 }
- footer .content7{
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 70px;    
+
+}
+.content7{
     display: flex;
     margin-top: 70px;
     color: white;
     font-size: 2rem;
     justify-content: center;
+    padding-bottom: 17px;
+    gap: 0.7rem;
 }
 .container4{
 display: flex;
@@ -478,13 +481,17 @@ margin-top: 70px;
 background-color: #fafafa;
 padding-top: 70px;
 padding-bottom: 70px;
-gap: 1rem;
+gap: 2.5rem;
 }
 .content8{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
+}
+.content8 #vitae {
+margin-top: 20px;
 }
 .content8 i{
 display: flex;
@@ -493,63 +500,89 @@ display: flex;
 
 }
 .content8 h3{
-font-size: 1.3rem;
+font-size: 1.4rem;
 }
 .content8 p{
-font-size: 1.4rem;
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .content9{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
 }
-.content9 h3{
-font-size: 1.3rem;
-}
-.content9 p{
-font-size: 1.4rem;
+.content9 #vitae {
+margin-top: 20px;
 }
 .content9 i{
 display: flex;
     justify-self: center;
     margin-top: 40px;
+
+}
+.content9 h3{
+font-size: 1.4rem;
+}
+.content9 p{
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .content10{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
+    padding-bottom: 70px;
 }
-.content10 h3{
-font-size: 1.3rem;
-}
-.content10 p{
-font-size: 1.4rem;
-position: relative;
+.content10 #vitae {
+margin-top: 25px;
 }
 .content10 i{
 display: flex;
     justify-self: center;
     margin-top: 40px;
+
+}
+.content10 h3{
+font-size: 1.4rem;
+}
+.content10 p{
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .content11{
     border-radius: 7px;
     background-color: white;
     justify-items: center;
     box-shadow: 2px 2px white;
+    width: 170px;
 }
-.content11 h3{
-font-size: 1.3rem;
-}
-.content11 p{
-font-size: 1.4rem;
-
+.content11 #vitae {
+margin-top: 20px;
 }
 .content11 i{
 display: flex;
     justify-self: center;
     margin-top: 40px;
+
+}
+.content11 h3{
+font-size: 1.4rem;
+}
+.content11 p{
+font-size: 1.1rem;
+position: absolute;
+margin-top: -2px;
+margin-right: 20px;
 }
 .container5{
     justify-items: center;
