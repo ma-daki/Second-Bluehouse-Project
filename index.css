@@ -53,12 +53,12 @@ body {
   transition: background-color 0.3s ease;
 }
 
-   .donate-btn:hover{
+  .donate-btn:hover{
     background-color: salmon;
-   }
-   .num1{
+  }
+  .num1{
     color: rgb(250, 164, 4);
-   }
+  }
  .hero {
   position: relative;
   display: flex;
@@ -121,7 +121,6 @@ body {
   filter: gray;
   
 }
-
 
 .about-section {
   display: flex;
