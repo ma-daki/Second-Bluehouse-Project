@@ -10,19 +10,107 @@ body {
  overflow-x: hidden;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 1440p;
+height: 80px;
+gap: 194px;
+padding-top: 20px;
+padding-right: 80px;
+padding-bottom: 20px;
+padding-left: 100px;
+background: rgba(0, 0, 0, 1);
+margin-top: 0px;
+margin-bottom: 50px;
+}
+
+.navbar .logo h3{
+    width: 20;
+bottom: 42px;
+color: white;
+position: relative;
+left: 22px;
+
+}
+.some-content ul .active:active {
+    color: white;
+}
+.navbar .logo img {
+    height: 20px;
+    width: 20px;
+}
+ .navbar nav {
+    margin: 35px;
+    width: 552px;
+height: 27px;
+gap: 20px;
+
+ }
+
+ .navbar nav a {
+    width: 100px;
+height: 27px;
+padding-top: 4px;
+padding-right: 12px;
+padding-bottom: 4px;
+padding-left: 12px;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+bottom: 28px;
+position: relative;
+left: 22px;
+font-weight: 550;
+ }
+
+.navbar nav a:hover {
+    color: white;
+}
+ .navbar  button {
+width: 147px;
+height: 40px;
+opacity: 1;
+border-radius: 16px;
+padding-top: 4px;
+padding-right: 40px;
+padding-bottom: 4px;
+padding-left: 40px;
+background: rgba(253, 126, 20, 1);
+text-decoration: none;
+border: none;
+ }
+
+ button  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+ }
+
+ .navbar button:hover {
+    color: rgba(253, 126, 20, 1);
+    font-weight: 700;
+ }
+
+ .last-mid {
+    text-align: center;
+ }
+
+
 .hero {
     margin-left: 20px;
 }
 
 .hero p {
     margin-left: 50px;
-    margin-bottom: -1px;
+    margin-bottom: 10px;
 }
 
 .hero  span {
     font-size: 16px;
     font-weight: 600;
     margin-left: 10px;
+    letter-spacing: rem;
+    
 }
 
 img {
@@ -32,11 +120,21 @@ img {
 }
 
 progress {
-    height: 20px;
-    width: 736px;
-    display: flex;
-    justify-content: flex-end;
-    
+    margin-top: 13px;
+  width: 720px;
+  height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: rgba(253, 126, 20, 1); 
+  border-radius: 10px;
 }
 .hero .goal {
     font-weight: bolder;
@@ -52,10 +150,21 @@ progress {
 width: 736px;
 display: flex;
 justify-content: space-between;
+height: 74px;
 }
 
+.digit .bold {
+   font-weight: 700;
+   font-size: 28px;
+
+}
+
+.digit .goal {
+    font-size: 28px;
+    font-weight: 700;
+}
 .content {
-    margin-top: 70px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -147,11 +256,12 @@ justify-content: space-between;
    list-style-type: none;
    margin-left: -40px;
    font-size: 20px;
-   font-weight: 500;
+   font-weight: 550;
    line-height: 10px;
    height: 44px;
    width: 416px;
 }
+
 
 .list label {
     font-weight: 700;
@@ -162,7 +272,7 @@ justify-content: space-between;
 }
 
 .list input {
-    width: 700px;
+    width: 647px;
     padding: 10px 0 10px 5px;
     margin-top: 30px;
     border-radius: 16px;
@@ -170,7 +280,7 @@ justify-content: space-between;
 }
 
 .list button {
-    width: 700px;
+    width: 647px;
     text-align: center;
     padding: 12px 32px 12px 32px;
     font-weight: 500;
@@ -181,6 +291,13 @@ justify-content: space-between;
     height: 60px;
     margin: 25px 0 30px 0;
     
+}
+
+.list button:hover {
+    color: rgba(253, 126, 20, 1);
+    background-color: white;
+    border: 1px solid rgba(253, 126, 20, 1);
+    font-weight: 700;
 }
 
 .grid {
@@ -197,9 +314,53 @@ justify-content: space-between;
     margin-bottom: 30px;
 }
 
+.grid img:hover {
+    position: relative;
+    bottom: 5px;
+    transition: 0.3 ease-out;
+}
+
 .grid  .side{
     margin-left: 2px;
 }
+
+.grid a {
+    font-weight: bold;
+}
+
+.search {
+  position: relative;
+  width: 250px; /* adjust as needed */
+}
+
+.search input {
+  width: 100%;
+  padding: 10px 10px 10px 35px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.img-search {
+  position: relative;
+  left: 10px;
+  top: 250%;
+  transform: translateY(-50%);
+  width: 16px; 
+  height: 16px;
+  pointer-events: none; 
+}
+
+
+.search input {
+    width: 647px;
+    height: 20px;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4) ;
+}
+
 
  .info {
     margin-left: 50px;
@@ -237,15 +398,15 @@ justify-content: space-between;
 }
 
 .border {
-    width: 545px;
+    width: 5Z5px;
     height: 946px;
     padding: 40px;
     gap: 40px;
     margin-top: 178px;
     margin-left: 29px;
     border-radius: 20px;
-    box-shadow: 2px rgba(0, 0, 0, 0.4);
-    border: 2px solid;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(248, 249, 250, 1);
 }
 
 .top-border {
@@ -394,7 +555,7 @@ width: 24px;
     margin-left: -20px;
 }
 
-.field {
+.field  {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -410,6 +571,7 @@ width: 24px;
 height: 38px;
 gap: 8px;
 opacity: 1;
+margin-top:-15px;
 border-radius: 6px;
 padding-top: 9px;
 padding-right: 16px;
@@ -422,13 +584,13 @@ border: none;
 width: 483px;
 height: 38px;
 gap: 8px;
+margin-top: 5px;
 border-radius: 6px;
 padding-top: 9px;
 padding-right: 16px;
 padding-bottom: 9px;
 padding-left: 16px;
 background-color: rgba(248, 249, 250, 1);
-;
 border: none;
  margin-left: -20px;
 }
@@ -456,7 +618,7 @@ border: none;
     position: relative;
     top: 5px;
     background: rgba(253, 126, 20, 1);
-
+    color: white;
     border: none;
     padding: 4px 20px;
     height: 60px;
@@ -467,82 +629,13 @@ border: none;
     right: 50px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    width: 1440p;
-height: 80px;
-gap: 194px;
-padding-top: 20px;
-padding-right: 80px;
-padding-bottom: 20px;
-padding-left: 100px;
-background: rgba(0, 0, 0, 1);
-margin-top: 50px;
-margin-bottom: 50px;
+.final button:hover {
+    color: rgba(253, 126, 20, 1);
+    background-color: white;
+    border: 1px solid rgba(253, 126, 20, 1);
+    font-weight: 700;
 }
 
-.navbar .logo h3{
-    width: 20;
-bottom: 42px;
-color: white;
-position: relative;
-left: 22px;
-
-}
-
-.navbar .logo img {
-    height: 20px;
-    width: 20px;
-}
- .navbar nav {
-    margin: 35px;
-    width: 552px;
-height: 27px;
-gap: 20px;
-
- }
-
- .navbar nav a {
-    width: 100px;
-height: 27px;
-padding-top: 4px;
-padding-right: 12px;
-padding-bottom: 4px;
-padding-left: 12px;
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
-bottom: 28px;
-position: relative;
-left: 22px;
-font-weight: 550;
- }
-
-
- .navbar  button {
-width: 147px;
-height: 40px;
-opacity: 1;
-border-radius: 16px;
-padding-top: 4px;
-padding-right: 40px;
-padding-bottom: 4px;
-padding-left: 40px;
-background: rgba(253, 126, 20, 1);
-text-decoration: none;
-border: none;
- }
-
- button  a {
-    text-decoration: none;
-    font-weight: 600;
-    background: rgba(253, 126, 20, 1);
-    color: white;
- }
-
- .last-mid {
-    text-align: center;
- }
 
  footer {
     background-color: rgba(0, 0, 0, 1);
@@ -599,10 +692,336 @@ margin-left: -220px;
     list-style-type: none;
     margin-left: 30px;
     position: relative;
-    right: 50px;
+    right: 70px;
  }
 
- .icon i {
+ .icon  {
     padding: 5px;
     border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    font-size: 25px
+ }
+
+
+ @media  (max-width: 600px) {
+   body{
+    width: 600px;
+   }
+
+  .full {
+    display: block;
+    width: 600px;
+}
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    height: 340px;
+  }
+
+  .navbar .logo {
+    
+  }
+
+  .navbar .logo h3 {
+    left: 0;
+    bottom: 0;
+    position: static;
+    margin-left: 8px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .navbar .logo img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: 25px;
+    top: 45px
+  }
+
+  .navbar nav {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+  }
+
+  .navbar nav a {
+    width: auto;
+    left: 0;
+    bottom: 80px;
+    padding: 6px 12px;
+    font-size: 16px;
+  }
+
+  .navbar button {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    position: relative;
+    bottom: 0px
+  }
+
+  .navbar button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+.last-mid {
+    font-size: 20px;
+}
+
+.dash {
+    position: relative;
+    right: 50px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.dash span{
+    font-size: 14px;
+    font-weight: 750 ;
+}
+
+.hero {
+    width: 600px;
+}
+
+.hero img {
+    width: 370px;
+    margin-left: -10px;
+    height: 300px;
+}
+
+.hero progress {
+    width: 370px;
+    margin-left: -10px;
+}
+
+.hero .digit {
+    width: 360px;
+    margin-top: -15px;
+}
+.digit .goal {
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.digit .bold {
+    font-size: 20px;
+}
+
+.content{
+    width: 370px;
+    margin-left: -10px;
+}
+
+.content h1 {
+    width: 370px;
+    font-size: 28px;
+}
+
+.content2 {
+    width: 370px;
+    margin-left: -5px;
+}
+
+.content2 li {
+    margin-left: -22px;
+}
+
+.last-content {
+    width: 370px;
+}
+.last-content h1 {
+     font-size: 28px;
+}
+
+.side {
+    width: 370px;
+}
+
+ .search  {
+    margin-left: -35px;
+    
+}
+
+.search input {
+    width: 360px;
+}
+
+.list {
+    margin-left: -35px
+
+}
+
+.list input {
+   width: 360px;
+}
+
+.list button {
+   width: 360px;
+   border-radius: 25px;
+}
+
+.other-programs .grid {
+    display: block;
+    justify-content: center;
+    margin-left: -8px;
+}
+.grid .info{
+    margin-bottom: 70px;
+    margin-top: -30px;
+    margin-left: -2px;
+}
+
+.border {
+    width: 370px;
+    margin-left: -45px;
+    margin-bottom: 100px;
+    height: 955px;
+}
+
+.top-border {
+    margin-left: -30px;
+}
+
+.top-border h2 {
+    font-size: 25px;
+}
+
+.top-border button {
+    width: 80px;
+}
+
+.mid-border  {
+   margin-left: -30px;
+}
+
+.mid-border h2 {
+    font-size: 25px;
+}
+
+.mid-border .card input {
+    width: 350px;
+}
+
+.personnal-info .row {
+    margin-left: -30px;
+    display: block;
+}
+
+.field {
+    display: block;
+    justify-content: center;
+}
+
+
+
+
+.field input {
+    width: 350px;
+    margin-top: 5px;
+}
+
+
+.small-mid {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.email {
+    margin-top: 80px;
+    margin-left: -13px;
+}
+
+.email label {
+    font-size: 20px;
+    margin-top: 85px;
+}
+
+.email input {
+    width: 350px;
+}
+
+.final {
+    font-size: 10px;
+}
+
+.final h1 {
+    margin-bottom: 10px;
+}
+
+.final button {
+    margin-right: 170px;
+    font-size: 16px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+  footer {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+    gap: 30px;
+    height: 1000px;
+  }
+
+  .firstside {
+    bottom: 0;
+    margin-top: 20px;
+  }
+
+  .footer-content .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  footer .logo img {
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    position: static;
+  }
+
+  .some-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .some-content ul li {
+    right: 0;
+    margin-left: -30px;
+  }
+
+  .icon {
+    margin-top: 30px;
+    font-size: 28px;
+    gap: 20px;
+  }
+
+
  }
