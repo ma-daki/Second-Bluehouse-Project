@@ -13,7 +13,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    width: 1440p;
+    width: 1540px;
 height: 80px;
 gap: 194px;
 padding-top: 20px;
@@ -86,7 +86,7 @@ border: none;
     color: white;
  }
 
- .navbar button:hover {
+ .navbar button:hover a {
     color: rgba(253, 126, 20, 1);
     font-weight: 700;
  }
@@ -109,7 +109,7 @@ border: none;
     font-size: 16px;
     font-weight: 600;
     margin-left: 10px;
-    letter-spacing: rem;
+    letter-spacing: 0.2rem;
     
 }
 
@@ -320,7 +320,7 @@ height: 74px;
     transition: 0.3 ease-out;
 }
 
-.grid  .side{
+.grid  {
     margin-left: 2px;
 }
 
@@ -367,13 +367,11 @@ height: 74px;
     width:271px;
     height: 48px;
     text-align: left;
+     flex: 3;
+    gap: 12px;
 }
 
-.info {
-    flex: 3;
-    gap: 12px;
-    
-}
+
 
 .info h3 {
     font-size: 20px;
@@ -398,7 +396,7 @@ height: 74px;
 }
 
 .border {
-    width: 5Z5px;
+    width: 525px;
     height: 946px;
     padding: 40px;
     gap: 40px;
@@ -546,7 +544,6 @@ width: 24px;
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    margin-bottom: px;
     width: 465px;
     height: 68px;
 }
@@ -561,7 +558,6 @@ width: 24px;
     justify-content: space-between;
     flex:1;
     margin-bottom: 16px;
-    margin-top: px;
     font-weight: 500px;
     font-size: 20px;
 }
@@ -723,6 +719,7 @@ margin-left: -220px;
     padding: 10px;
     height: 340px;
   }
+
 
   .navbar .logo h3 {
     left: 0;
